@@ -6,6 +6,7 @@
   "bin": {
     "gitlab-le": "./index.js"
   },
+  "bundledDependencies": ["le-acme-core"],
   "dependencies": {
     "bluebird": "3.5.1",
     "le-acme-core": "https://github.com/rolodato/le-acme-core#semver:2.1.0",
